@@ -1,1 +1,3 @@
 # Online-Voting-System
+
+This online voting system aims to modernize elections by providing a secure and accessible platform for remote voting. The user interface is developed with HTML, CSS, and JavaScript to create an intuitive and responsive experience for voters, handling tasks such as ballot display and vote submission. The backend, implemented in Java, manages core functionalities including voter authentication, secure storage and processing of votes, and communication with the frontend. Key features include facilitating remote voting to increase voter participation, automating vote counting for efficiency, and employing security measures to ensure election integrity.
