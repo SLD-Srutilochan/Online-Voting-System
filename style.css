@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.candidate {
+    display: inline-block;
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 5px 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:disabled {
+    background-color: #cccccc;
+    cursor: not-allowed;
+}
+
+button:hover:not(:disabled) {
+    background-color: #45a049;
+}
+
+#notification {
+    color: green;
+    font-weight: bold;
+    margin: 10px;
+}
+
+#winning-chances {
+    margin-top: 20px;
+}
+
+#winning-chances p {
+    margin: 5px 0;
+}

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Voting System</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <h1>Vote for Your Candidate</h1>
+    <div id="notification" style="display: none; color: green; font-weight: bold; margin: 10px;"></div>
+    <div class="candidate">
+        <h2>Candidate A</h2>
+        <p>Votes: <span id="votes-A">0</span></p>
+        <button onclick="vote('Candidate A')">Vote for A</button>
+    </div>
+    <div class="candidate">
+        <h2>Candidate B</h2>
+        <p>Votes: <span id="votes-B">0</span></p>
+        <button onclick="vote('Candidate B')">Vote for B</button>
+    </div>
+    <div class="candidate">
+        <h2>Candidate C</h2>
+        <p>Votes: <span id="votes-C">0</span></p>
+        <button onclick="vote('Candidate C')">Vote for C</button>
+    </div>
+    <div id="winning-chances" style="margin-top: 20px; display: none;">
+        <h2>Winning Chances</h2>
+        <p>Candidate A: <span id="chance-A">0%</span></p>
+        <p>Candidate B: <span id="chance-B">0%</span></p>
+        <p>Candidate C: <span id="chance-C">0%</span></p>
+    </div>
+    <script src="/script.js"></script>
+</body>
+</html>
